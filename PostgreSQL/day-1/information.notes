@@ -74,3 +74,62 @@ It can contain PostgreSQL connection code.
 It can execute SQL queries through the pg package.
 It can process and display database results.
 It is not a PostgreSQL file.
+
+
+Complete Beginner Workflow
+---------------------------
+
+Here is the complete process from the beginning.
+
+Step 1: Install Node.js
+
+Install Node.js on your computer.
+
+Check installation:
+node --version
+
+Check npm:
+npm --version
+
+Step 2: Create a project folder
+
+mkdir postgresql-node-project
+cd postgresql-node-project
+
+Step 3: Initialize the project
+npm init -y
+
+This creates:
+package.json
+
+Step 4: Install PostgreSQL driver
+npm install pg
+
+This creates or updates:
+package-lock.json
+
+and:
+
+node_modules/
+
+Step 5: Create index.js
+console.log('Hello PostgreSQL with Node.js');
+
+Run:
+node index.js
+
+Step 6: Add PostgreSQL connection code
+
+Use the pg package and configure your database connection.
+
+Step 7: Execute SQL queries
+
+For example:
+SELECT * FROM students;
+
+Step 8: Run the application
+node index.js
+
+or:
+
+npm start
