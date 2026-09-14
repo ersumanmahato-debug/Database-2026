@@ -44,3 +44,33 @@
 
 15. client.end():
     Closes the PostgreSQL database connection.
+
+
+
+
+package.json Notes
+-------------------
+package.json is the main configuration file of a Node.js project.
+It stores project metadata.
+It lists dependencies required by the application.
+It can contain scripts such as start and test.
+It is usually created using npm init.
+It is normally committed to Git.
+
+package-lock.json Notes
+------------------------
+package-lock.json records exact dependency versions.
+It is automatically managed by npm.
+It helps ensure consistent installations.
+It records dependency trees and package integrity information.
+It should normally be committed to Git.
+Do not delete it unnecessarily.
+
+index.js Notes
+---------------
+index.js is a JavaScript source file.
+It is commonly used as the main entry point.
+It can contain PostgreSQL connection code.
+It can execute SQL queries through the pg package.
+It can process and display database results.
+It is not a PostgreSQL file.
