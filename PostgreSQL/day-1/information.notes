@@ -1,0 +1,46 @@
+1. PostgreSQL:
+   A relational database management system used to store and manage data.
+
+2. Node.js:
+   A JavaScript runtime used to run JavaScript outside the browser.
+
+3. npm:
+   Node Package Manager used to install and manage Node.js packages.
+
+4. pg:
+   A Node.js PostgreSQL client used to connect Node.js applications to PostgreSQL.
+
+5. package.json:
+   The main Node.js project configuration file containing project metadata,
+   scripts, and dependencies.
+
+6. package-lock.json:
+   A file that records exact dependency versions and installation details
+   to ensure consistent package installations.
+
+7. index.js:
+   A JavaScript file commonly used as the main entry point of a Node.js application.
+
+8. node_modules:
+   A folder containing installed Node.js packages and their dependencies.
+
+9. npm init -y:
+   Creates a package.json file with default project settings.
+
+10. npm install pg:
+    Installs the PostgreSQL driver for Node.js.
+
+11. node index.js:
+    Runs the index.js JavaScript file.
+
+12. npm start:
+    Runs the command defined in the start script of package.json.
+
+13. client.connect():
+    Establishes a connection between Node.js and PostgreSQL.
+
+14. client.query():
+    Executes an SQL query in PostgreSQL.
+
+15. client.end():
+    Closes the PostgreSQL database connection.
